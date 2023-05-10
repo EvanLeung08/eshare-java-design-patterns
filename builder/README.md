@@ -1,11 +1,8 @@
 ---
-layout: pattern
 title: Builder
-folder: builder
-permalink: /patterns/builder/
-categories: Creational
+category: Creational
 language: en
-tags:
+tag:
  - Gang of Four
 ---
 
@@ -133,6 +130,12 @@ Use the Builder pattern when
 
 * The algorithm for creating a complex object should be independent of the parts that make up the object and how they're assembled
 * The construction process must allow different representations for the object that's constructed
+
+## Tutorials
+
+* [Refactoring Guru](https://refactoring.guru/design-patterns/builder)
+* [Oracle Blog](https://blogs.oracle.com/javamagazine/post/exploring-joshua-blochs-builder-design-pattern-in-java)
+* [Journal Dev](https://www.journaldev.com/1425/builder-design-pattern-in-java)
 
 ## Known uses
 
