@@ -37,14 +37,14 @@ public abstract class AbstractMessageManager implements MessageManager {
   protected Map<Integer, Instance> instanceMap;
 
   /**
-   * Construtor of AbstractMessageManager.
+   * Constructor of AbstractMessageManager.
    */
   public AbstractMessageManager(Map<Integer, Instance> instanceMap) {
     this.instanceMap = instanceMap;
   }
 
   /**
-   * Find the next instance with smallest ID.
+   * Find the next instance with the smallest ID.
    *
    * @return The next instance.
    */
